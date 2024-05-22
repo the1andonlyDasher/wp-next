@@ -9,19 +9,33 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "^14.2.3",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.4"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.4"
-  }
+    "@emailjs/browser": "^3.10.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@react-three/cannon": "^6.6.0",
+    "@react-three/drei": "^9.40.0",
+    "@react-three/fiber": "^8.8.10",
+    "@types/node": "20.11.0",
+    "autoprefixer": "10.4.7",
+    "date-fns": "^3.2.0",
+    "framer-motion": "^10.5.0",
+    "framer-motion-3d": "^10.16.5",
+    "jotai": "^2.5.1",
+    "postcss": "8.4.31",
+    "sass": "^1.59.3",
+    "swiper": "^11.0.5",
+    "tailwindcss": "^3.0.24",
+    "typescript": "5.4.5"
+  },
+  "browserslist": [
+    "defaults and fully supports es6-module",
+    "maintained node versions"
+  ]
 }
